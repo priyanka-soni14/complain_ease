@@ -1,0 +1,48 @@
+.signup{
+    /* display: inline-block; */
+    display:flex ;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin: auto;
+    /* grid-template-columns: auto; */
+    box-shadow: 1px 1px 4px grey;
+    font-weight: bolder;
+    width: 50%;
+    height: 50%;
+    /* height: 300px; */
+    padding: 20px;
+}
+#logo{
+    margin: auto;
+    height: auto;
+}
+.signup_button {
+    font-size: 17px;
+    font-weight: bolder;
+    background-color: red;
+    border-radius: 50rem !important;
+    padding: 8px 20px;
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    margin-left: 45%;
+    
+}
+.signup_button:hover{
+    box-shadow: 4px 4px 5px grey;
+}
+.form_signup input{
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.signup_body{
+    /* padding: 10px; */
+    padding: 10px;
+}
+.have_account{
+    display: flex;
+    gap: 10px;
+    margin :  0 auto;
+}
